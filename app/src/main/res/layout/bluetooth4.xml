@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/vector"
+        android:layout_height="20.38dp"
+        android:layout_width="11.65dp"
+        android:layout_marginTop="25.31dp"
+        android:layout_marginLeft="20.21dp"
+        android:background="@drawable/vector"
+        />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="53dp"
+        android:text="Bluetooth"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nats"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="65dp"
+        android:textSize="25sp"
+        />
+
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="115dp"
+        android:background="@drawable/e2"
+        />
+
+    <ImageView
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginLeft="92dp"
+        android:background="@drawable/e4"
+        />
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="125dp"
+        android:background="@drawable/e3"
+        />
+
+    <ImageView
+        android:layout_width="287dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/e5"
+        />
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/e1"
+        />
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:background="@drawable/close"
+        android:layout_marginTop="184dp"
+        android:layout_marginLeft="177dp"
+        />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="@font/nats"
+        android:text="Scanning....."
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="569dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cs"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:text="Try Again"
+        android:fontFamily="@font/nats"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="565dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="629dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cs"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:text="Back"
+        android:fontFamily="@font/nats"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="625dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
